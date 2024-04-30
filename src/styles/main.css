@@ -1,0 +1,29 @@
+html {
+  padding: 2rem;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+input {
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  height: 15px;
+  margin: 1rem;
+  padding: 5px;
+  text-align: center;
+}
+
+button {
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  padding: 5px 10px;
+}
+

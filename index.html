@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 <!-- título -->
-  <title>Document</title>
+  <title>Classificador de nível de herói</title>
 
 <!-- fontes -->
 
@@ -19,7 +19,16 @@
 
 <!-- projeto -->
 <body>
+  <p>name:</p>
+  <input id="name"/>
+  <br/>
+  <p>xp:</p>
+  <input id="xp"/>
+  <br/>
+  <button id="classificador" onclick="classificarNivel()">send</button>
+  <button id="reset" onclick="resetarCampos()">reset</button>
   
+  <p id="texto"></p>
 
 <!-- js/engine -->
   <script src="./src/scripts/engine.js" defer></script>
